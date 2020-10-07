@@ -21,5 +21,8 @@
     <ClInclude Include="Common.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="Definition.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

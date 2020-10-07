@@ -3,14 +3,14 @@
 
 Unit::Unit()
 {
-	m_hp = 0;
-	m_str = 0;
-	m_mag = 0;
-	m_tec = 0;
-	m_spd = 0;
-	m_def = 0;
-	m_luc = 0;
-	m_mde = 0;
+	status._hp = 0;
+	status._str = 0;
+	status._mag = 0;
+	status._tec = 0;
+	status._spd = 0;
+	status._def = 0;
+	status._luc = 0;
+	status._mde = 0;
 
 }
 Unit::~Unit()
@@ -21,12 +21,12 @@ Unit::~Unit()
 void Unit::PrintStatus()
 {	
 	printf("unit\n");
-	printf("hp :%d\n", m_hp);
-	printf("str:%d\n", m_str);
-	printf("mag:%d\n", m_mag);
-	printf("tec:%d\n", m_tec);
-	printf("spd:%d\n", m_spd);
-	printf("def:%d\n", m_def);
-	printf("luc:%d\n", m_luc);
-	printf("mde:%d\n", m_mde);
+	printf("hp :%d\n", status._hp);
+	printf("str:%d\n", status._str);
+	printf("mag:%d\n", status._mag);
+	printf("tec:%d\n", status._tec);
+	printf("spd:%d\n", status._spd);
+	printf("def:%d\n", status._def);
+	printf("luc:%d\n", status._luc);
+	printf("mde:%d\n", status._mde);
 }
