@@ -1,4 +1,5 @@
 
+#include <stdio.h>
 #include "Enemy.h"
 
 Enemy::Enemy()
@@ -19,5 +20,11 @@ void Enemy::Exec()
 void Enemy::Draw()
 {
 
+}
+
+bool Enemy::CheckHit(int x, int y, int width, int height)
+{
+	printf("EnemyÅFìñÇΩÇËÇ‹ÇπÇÒÇ≈ÇµÇΩÅI\n");
+	return false;
 }
 

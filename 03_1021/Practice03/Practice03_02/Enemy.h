@@ -19,6 +19,10 @@ public:
 	void Exec();
 	void Draw();
 
+public:
+	// 引数の矩形情報と、自分が当たっているか判定
+	bool CheckHit(int x, int y, int width, int height);
+
 private:
 	// 行動管理用の変数
 	int m_Routine;
