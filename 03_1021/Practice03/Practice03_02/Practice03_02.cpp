@@ -6,12 +6,16 @@
 #include "Base.h"
 #include "Player.h"
 #include "Enemy.h"
+#include "EnemyManager.h"
+
+//#define PRACTICE03_1021		// 10月21日授業分
 
 // ステータス表示
 void PrintStatus( std::string name, Base* target );
 
 int main()
 {
+	#if defined(PRACTICE03_1021)
 	// 純粋仮想関数を１つ以上宣言しているクラスを抽象クラス
 	// 抽象クラスは、単体では実体化できない。必ず継承して使う必要がある。
 //	Base* base = new Base();
@@ -56,6 +60,33 @@ int main()
 	player = nullptr;
 	delete enemy;
 	enemy = nullptr;
+#else 
+	// 10月28日に追加作業した分
+	// EnemyManagerの実行テスト
+#endif
+	// EnemyManagerを使ったEnemyクラスの管理の例
+	EnemyManager* enemyMng = new EnemyManager();
+	Base* pEnemy           = nullptr;
+
+	// ステージ開始時点でまとめて初期化
+	// 引数はエネミーの種類を表す(本来ならenumなどで分かりやすくする)
+	enemyMng->CreateEnemy(0);
+	enemyMng->CreateEnemy(1);
+	pEnemy = enemyMng->CreateEnemy(2);
+	enemyMng->CreateEnemy(3);
+	enemyMng->CreateEnemy(4);
+	enemyMng->CreateEnemy(4);
+	enemyMng->CreateEnemy(4);
+
+	// 指定したエネミーを削除
+	enemyMng->DestroyEnemy(pEnemy);
+
+	// 作成したエネミーに各処理を行わせる
+	enemyMng->Exec();
+	enemyMng->Draw();
+
+	// 指定した座標と接触しているエネミーを取得
+	pEnemy = enemyMng->CheckHit(10, 10, 20, 30);
 
 	system("pause");
 	return 0;
