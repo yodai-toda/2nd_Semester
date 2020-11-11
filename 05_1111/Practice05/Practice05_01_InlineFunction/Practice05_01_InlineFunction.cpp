@@ -44,11 +44,14 @@ inline unsigned int Pow(int x1, int x2)
 {
 	return (x1 * x2);
 }
-#else
+
+#else 
+
 unsigned int Pow(int x1, int x2)
 {
 	return (x1 * x2);
 }
+
 #endif
 
 int main()
@@ -63,7 +66,7 @@ int main()
 	}
 
 	LARGE_INTEGER s, e;
-	QueryPerformanceFrequency(&s);
+	QueryPerformanceCounter(&s);
 	unsigned int pow = 0;
 	for (int i = 0; i < 10000; i++)
 	{
