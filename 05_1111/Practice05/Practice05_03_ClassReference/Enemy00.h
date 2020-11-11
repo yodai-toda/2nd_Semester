@@ -7,7 +7,7 @@ class Enemy00 : public CharacterBase
 {
 public:
 	Enemy00();
-	virtual ~Enemy00();
+	~Enemy00();
 };
 
 
