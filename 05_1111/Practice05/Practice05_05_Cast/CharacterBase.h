@@ -20,6 +20,11 @@ protected:
 	int m_Hp;
 	int m_Mp;
 	EnemyType m_Type;
+	EnemyType GetEnemyType;
+protected:
+	int m_Hp;
+	int m_Mp;
+	int m_Type;
 
 };
 
