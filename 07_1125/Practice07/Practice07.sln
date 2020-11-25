@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice07_01_Operator_Math
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice07_02_Operator_Compare", "Practice07_02_Operator_Compare\Practice07_02_Operator_Compare.vcxproj", "{AB1CF681-8662-4632-8841-78A61F10231E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice07_03_Operator", "Practice07_03_Operator\Practice07_03_Operator.vcxproj", "{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{AB1CF681-8662-4632-8841-78A61F10231E}.Release|x64.Build.0 = Release|x64
 		{AB1CF681-8662-4632-8841-78A61F10231E}.Release|x86.ActiveCfg = Release|Win32
 		{AB1CF681-8662-4632-8841-78A61F10231E}.Release|x86.Build.0 = Release|Win32
+		{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}.Debug|x64.ActiveCfg = Debug|x64
+		{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}.Debug|x64.Build.0 = Debug|x64
+		{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}.Debug|x86.Build.0 = Debug|Win32
+		{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}.Release|x64.ActiveCfg = Release|x64
+		{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}.Release|x64.Build.0 = Release|x64
+		{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}.Release|x86.ActiveCfg = Release|Win32
+		{BA548C0B-21A7-41D5-9EB6-DD092B3AA0A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
