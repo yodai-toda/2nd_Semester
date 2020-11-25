@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice07_01_Operator_Math", "Practice07_01_Operator_Math\Practice07_01_Operator_Math.vcxproj", "{1DDE8C21-8A43-43A2-B0CE-EFF68075E7DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practice07_02_Operator_Compare", "Practice07_02_Operator_Compare\Practice07_02_Operator_Compare.vcxproj", "{AB1CF681-8662-4632-8841-78A61F10231E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{1DDE8C21-8A43-43A2-B0CE-EFF68075E7DB}.Release|x64.Build.0 = Release|x64
 		{1DDE8C21-8A43-43A2-B0CE-EFF68075E7DB}.Release|x86.ActiveCfg = Release|Win32
 		{1DDE8C21-8A43-43A2-B0CE-EFF68075E7DB}.Release|x86.Build.0 = Release|Win32
+		{AB1CF681-8662-4632-8841-78A61F10231E}.Debug|x64.ActiveCfg = Debug|x64
+		{AB1CF681-8662-4632-8841-78A61F10231E}.Debug|x64.Build.0 = Debug|x64
+		{AB1CF681-8662-4632-8841-78A61F10231E}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB1CF681-8662-4632-8841-78A61F10231E}.Debug|x86.Build.0 = Debug|Win32
+		{AB1CF681-8662-4632-8841-78A61F10231E}.Release|x64.ActiveCfg = Release|x64
+		{AB1CF681-8662-4632-8841-78A61F10231E}.Release|x64.Build.0 = Release|x64
+		{AB1CF681-8662-4632-8841-78A61F10231E}.Release|x86.ActiveCfg = Release|Win32
+		{AB1CF681-8662-4632-8841-78A61F10231E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
